@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import NavTabs from './components/NavTabs';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Projects from './components/pages/Projects';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // Using useState, set the default value for currentPage to 'Home'
+    const [currentPage, handlePageChange] = useState('Home');
+
+    const renderPage = () => {
+        switch (currentPage) {
+          case 'About':
+            return <About />;
+          case 'Projects':
+            return <Projects />;
+          case 'Contact':
+            return <Contact />;
+          default:
+            return <Home />;
+        }
+      };
+    
+      return (
+        <>
+          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}></NavTabs>
+          <main>
+            {renderPage(currentPage)}
+          </main>
+        </>
+      );
 }
 
 export default App;

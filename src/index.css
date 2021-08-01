@@ -498,6 +498,85 @@ padding-left: 0 !important;
 width: 50px;
 }
 
+#contact-form {
+  padding-top: 6%;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input, textarea {
+  border: 0;
+  width: 86%;
+}
+
+
+
+.input_fields {
+  position: relative;
+  display: flex;
+  margin-bottom: 1rem;
+  
+}
+
+.input_el {
+  display: block;
+  background-color: transparent;
+  /* line-height: 2px; */
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: .6rem;
+}
+
+.input_el textarea {
+  padding-top: 24px;
+}
+
+.input_label {
+  position: absolute;
+  top: 12px;
+  display: block;
+  cursor: text;
+  background-color: transparent;
+  /* padding-left: .6rem; */
+}
+
+label {
+  order: -1;
+  /* padding-left: 5px; */
+  transition: all 0.3s ease-in;
+  transform: translateY(20px);
+  pointer-events: none;
+}
+
+input:focus ~ label,.has-value {
+  transform: scale(.8) translateY(-2px);
+}
+
+/* .has-value {
+  transform: scale(.8) translateY(-2px);
+} */
+
+/* input:valid ~ label {
+  transform: translateY(-2px);
+} */
+
+textarea:focus + label {
+  transform: translateY(-4px);
+}
+
+.input_underline {
+  background-color: #737373;
+  width: 86%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  margin-left: .6rem;
+}
 
 /* ======WORK======= */
 .work-links a:hover{

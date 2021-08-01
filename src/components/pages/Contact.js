@@ -1,19 +1,22 @@
 import React from 'react';
+import ContactForm from '../pages/ContactForm'
 
 function Contact() {
     return(
         <section>
-            <div class="justify-content-start ">
-                <section class="contact" id="home-section">
-                    <h1 class="contact-header">Say hello.</h1>
+            <div className="justify-content-start ">
+                <section className="contact" id="home-section">
+                    <h1 className="contact-header">Say hello.</h1>
                 </section>
                 
-                <section class="contact-btns-container">
-                    <div class="btnContainer py-2">
+                <ContactForm></ContactForm>
+
+                <section className="contact-btns-container">
+                    <div className="btnContainer py-2">
                         <ul id="contactBtns">
-                          <li class="contact-list">
-                            <a href="https://github.com/rtanguyen" aria-label="GitHub" target="_blank" rel="noreferrer" class="contact-link">
-                              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github" style={{background: 'transparent'}} id="svg-github" width="40" height="40">
+                          <li className="contact-list">
+                            <a href="https://github.com/rtanguyen" aria-label="GitHub" target="_blank" rel="noreferrer" className="contact-link">
+                              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github" style={{background: 'transparent'}} id="svg-github" width="40" height="40">
                                   <defs>
                                     <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%">
                                         <stop offset="0%" style={{stopColor:'#71f9c8'}} />
@@ -27,15 +30,15 @@ function Contact() {
                                     </defs>
                                     <g mask="url(#github-icon-mask)">
                                       <rect x="0" y="0" width="40" height="40" fill="#83837C" />
-                                      <rect class="svg-gradient" x="0" y="0" width="40" height="40" fill="url(#gradient)" />
+                                      <rect className="svg-gradient" x="0" y="0" width="40" height="40" fill="url(#gradient)" />
                                     </g>
                                 </svg>
                             </a>
                         </li>
                         
-                        <li class=" contact-list clbtns">
+                        <li className=" contact-list clbtns">
                           <a href="https://www.linkedin.com/in/rtanguyen/" aria-label="Linkedin" target="_blank" rel="noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin" style={{background: 'transparent'}} id="svg-linkedin" width="40" height="40">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-linkedin" style={{background: 'transparent'}} id="svg-linkedin" width="40" height="40">
                               <defs>
                                 <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%">
                                     <stop offset="0%" style={{stopColor:'#71f9c8'}} />
@@ -49,16 +52,16 @@ function Contact() {
                                 </defs>
                                 <g mask="url(#linkedin-icon-mask)">
                                   <rect x="0" y="0" width="40" height="40" fill="#83837C" />
-                                  <rect class="svg-gradient" x="0" y="0" width="40" height="40" fill="url(#gradient)" />
+                                  <rect className="svg-gradient" x="0" y="0" width="40" height="40" fill="url(#gradient)" />
                                 </g>
                             </svg>
                           </a>
                       </li>
             
             
-                      <li class="contact-list clbtns">
+                      <li className="contact-list clbtns">
                         <a href="mailto:rtanguyen@gmail.com">
-                          <svg id="svg-email" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail" style={{background: 'transparent'}} width="40" height="40">
+                          <svg id="svg-email" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-mail" style={{background: 'transparent'}} width="40" height="40">
                             <defs>
                               <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%">
                                 <stop offset="0%" style={{stopColor:'#71f9c8'}} />
@@ -72,7 +75,7 @@ function Contact() {
                             </defs>
                             <g mask="url(#email-icon-mask)">
                               <rect x="0" y="0" width="40" height="40" fill="#83837C" />
-                              <rect class="svg-gradient" x="0" y="0" width="40" height="40" fill="url(#gradient)"/>
+                              <rect className="svg-gradient" x="0" y="0" width="40" height="40" fill="url(#gradient)"/>
                             </g>
                           </svg>
                         </a>
@@ -80,7 +83,9 @@ function Contact() {
                         </ul>
                       </div>
                 </section>
+            {/* <ContactForm></ContactForm> */}
             </div>
+
         </section>
     )
 }

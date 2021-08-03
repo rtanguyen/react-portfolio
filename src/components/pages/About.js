@@ -76,9 +76,11 @@ function About() {
                 </div>
             </div>
             </div>
+            <footer>
             <div className="footer-text-container">
                 <p className="footer_text justify-content-center">Copyright &amp; Design © Rebecca Nguyen 2021</p>
             </div>
+            </footer>
         </div>
     );
 }

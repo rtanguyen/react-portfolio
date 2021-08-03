@@ -96,13 +96,12 @@ function Home() {
 
         <footer>
         <div id="contact" className="py-4 pt-5">
-            <div className="copyright">
-            </div>
+            <div className="copyright"></div>
             <div  className="contact-info pt-3 row">
-                <div >
+                <div className="contact-container">
 
                 <ul id="contactBtns">
-                <li className="contact-list px-5">
+                <li className="contact-list">
                     <a href="https://github.com/rtanguyen" aria-label="GitHub" target="_blank" rel="noreferrer" className="contact-link">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-github" style={{background: 'transparent'}} id="svg-github" width="50" height="50">
                         <defs>
@@ -124,7 +123,7 @@ function Home() {
                     </a>
                 </li>
     
-                <li className=" contact-list px-5">
+                <li className=" contact-list">
                 <a href="https://www.linkedin.com/in/rtanguyen" target="_blank" rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-linkedin" style={{backgroundColor: "transparent"}} id="svg-linkedin" width="50" height="50">
                     <defs>
@@ -147,7 +146,7 @@ function Home() {
             </li>
 
 
-            <li className="contact-list px-5">
+            <li className="contact-list">
                 <a href="mailto:rtanguyen@gmail.com">
                 <svg id="svg-email" viewBox="0 0 24 24" fill="transparent" stroke="#83837C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-mail" style={{background: 'transparent'}} width="50" height="50">
                     <defs>
@@ -171,10 +170,11 @@ function Home() {
                 </ul>
             </div>
             </div>
-            </div>
             <div className="footer-text-container">
                 <p className="footer_text justify-content-center">Copyright &amp; Design © Rebecca Nguyen 2021</p>
             </div>
+            </div>
+
       </footer>
         </div>
     );

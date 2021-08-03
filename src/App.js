@@ -9,6 +9,7 @@ function App() {
     // Using useState, set the default value for currentPage to 'Home'
     const [currentPage, handlePageChange] = useState('Home');
 
+
     const renderPage = () => {
         switch (currentPage) {
           case 'About':
@@ -24,10 +25,17 @@ function App() {
     
       return (
         <>
-          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}></NavTabs>
+          <NavTabs currentPage={currentPage} 
+          handlePageChange={handlePageChange}
+          ></NavTabs>
           <main>
             {renderPage(currentPage)}
           </main>
+          {/* <footer>
+          <div className="footer-text-container">
+                <p className="footer_text justify-content-center">Copyright &amp; Design © Rebecca Nguyen 2021</p>
+          </div>
+          </footer> */}
         </>
       );
 }

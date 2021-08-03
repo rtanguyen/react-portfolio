@@ -17,7 +17,7 @@ code {
   margin: 0;
   padding: 0;
   box-sizing:border-box;
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   /* background-color: #C1C0AC; */
 
   font-family: 'Roboto', sans-serif; 
@@ -36,7 +36,7 @@ main {
 
 /*apply style to header/nav*/
 header {
-  background-color: #FFFFFF;
+  background-color:transparent;
   padding: 20px 20px 0 20px;
   display: flex;
   justify-content: flex-end;
@@ -78,6 +78,13 @@ header a:hover {
   border-bottom: 1px solid rgb(116, 253, 231) !important;
   padding-bottom: 0 !important;
   font-weight: bolder;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 8px ;
+  margin-left: 8px;
 }
 
 /* header nav {
@@ -229,7 +236,7 @@ color: #89857A;
 .copyright {
 display: flex;
 justify-content: flex-start;
-padding-left: 5%;
+/* padding-left: 5%; */
 margin-right: auto;
 }
 
@@ -452,6 +459,10 @@ margin-top: 10%;
 margin-left: auto;
 margin-right: auto;
 width: 75%;
+display: flex;
+justify-content: flex-start;
+/* padding-left: 5%; */
+margin-right: auto;
 /* font-size:; */
 }
 
@@ -469,6 +480,7 @@ margin-right: auto;
 width: 75%;
 height: 55px;
 text-align: center;
+padding-top: 5%;
 }
 
 .contact-btns-container ul {
@@ -476,6 +488,10 @@ margin: auto;;
 text-align: center;
 height: 55px;
 
+}
+
+#contactBtns {
+  padding-left: 0;
 }
 
 #contactBtns li {
@@ -500,9 +516,11 @@ width: 50px;
 
 #contact-form {
   padding-top: 6%;
-  width: 50%;
+  width: 45%;
   margin: auto;
   align-items: center;
+  max-width: 750px;
+  justify-content: center;
 }
 
 textarea:focus, input:focus{
@@ -511,7 +529,8 @@ textarea:focus, input:focus{
 
 input, textarea {
   border: 0;
-  width: 86%;
+  width: 100%;
+  resize: none;
 }
 
 
@@ -520,7 +539,14 @@ input, textarea {
   position: relative;
   display: flex;
   margin-bottom: 1rem;
-  
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.input_fields label {
+align-self: flex-start;
+display: flex;
+left: 0;
 }
 
 .input_el {
@@ -529,7 +555,7 @@ input, textarea {
   /* line-height: 2px; */
   padding-top: 30px;
   padding-bottom: 10px;
-  padding-left: .6rem;
+  padding-left: .5rem;
 }
 
 .input_el textarea {
@@ -553,6 +579,62 @@ label {
   pointer-events: none;
 }
 
+.input_underline {
+  background-color: #737373;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  /* margin-left: -0.4rem;
+  padding-left: .6rem; */
+}
+
+.invalidInput {
+  background-color: #F4003C;
+}
+
+.error-text {
+  display: block;
+  color: #F4003C;
+}
+
+.bi-exclamation-triangle {
+  color: #F4003C;
+  display: inline;
+}
+
+.email-btn {
+  background-color: #74FDE7;
+  border: none;
+  border-radius: .25rem;
+  padding: .375rem 1.25rem;
+}
+
+.email-btn span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.email-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.email-btn:hover span {
+  padding-right: 25px;
+}
+
+.email-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 input:focus ~ label,.has-value {
   transform: scale(.8) translateY(-2px);
 }
@@ -569,14 +651,7 @@ textarea:focus + label {
   transform: translateY(-4px);
 }
 
-.input_underline {
-  background-color: #737373;
-  width: 86%;
-  height: 2px;
-  position: absolute;
-  bottom: 0;
-  margin-left: .6rem;
-}
+
 
 /* ======WORK======= */
 .work-links a:hover{
@@ -604,13 +679,17 @@ display: block;
 justify-content: flex-end; */
 /* padding-right: 5%; */
 margin: auto;
-width: 40%;
+/* width: 36%; */
 justify-content:space-around;
 text-align: right;
 }
 
+.contact-container {
+  width: 25%;
+}
+
 footer {
-padding: 5px 20px 0 20px
+padding: 5px 0 0 0 
 }
 
 .footer_container {

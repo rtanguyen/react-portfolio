@@ -1,8 +1,11 @@
 import React from 'react';
+import $ from 'jquery'; 
+
 
 // Props are passed through our functional component.
 function NavTabs(props) {
   const tabs = ['Home', 'About', 'Projects', 'Contact'];
+
 
 
   return (

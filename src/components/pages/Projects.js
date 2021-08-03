@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects() {
     return (
-        <div className="justify-content-start">
+        <div className="justify-content-center">
         <section className="about" id="home-section">
           <h2 className="about-header">My work</h2>
 
@@ -202,6 +202,11 @@ function Projects() {
               </div>      
           </div>
         </section>
+        <footer>
+          <div className="footer-text-container">
+              <p className="footer_text justify-content-center">Copyright &amp; Design © Rebecca Nguyen 2021</p>
+          </div>
+        </footer>
         </div>
     )
 }

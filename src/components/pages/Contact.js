@@ -3,10 +3,10 @@ import ContactForm from '../pages/ContactForm'
 
 function Contact() {
     return(
-        <section>
-            <div className="justify-content-start ">
-                <section className="contact" id="home-section">
-                    <h1 className="contact-header">Say hello.</h1>
+        <section className="justify-content-center">
+            <div>
+                <section className="contact justify-content-center" id="home-section">
+                    <h1 className="contact-header justify-content-center">Say hello!</h1>
                 </section>
                 
                 <ContactForm></ContactForm>
@@ -84,8 +84,15 @@ function Contact() {
                       </div>
                 </section>
             {/* <ContactForm></ContactForm> */}
-            </div>
+            
+            
 
+          <footer className="pt-5">
+          {/* <div className="footer-text-container"> */}
+              <p className="footer_text justify-content-center">Copyright &amp; Design © Rebecca Nguyen 2021</p>
+          {/* </div> */}
+        </footer>
+        </div>
         </section>
     )
 }

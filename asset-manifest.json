@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4d05377a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.1c62d8b3.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.1c62d8b3.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.bc653d04.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.bc653d04.js.map",
-    "static/js/2.ad94b2eb.chunk.js": "/react-portfolio/static/js/2.ad94b2eb.chunk.js",
-    "static/js/2.ad94b2eb.chunk.js.map": "/react-portfolio/static/js/2.ad94b2eb.chunk.js.map",
-    "static/js/3.e47e058f.chunk.js": "/react-portfolio/static/js/3.e47e058f.chunk.js",
-    "static/js/3.e47e058f.chunk.js.map": "/react-portfolio/static/js/3.e47e058f.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.4f8780f5.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.94ea6a01.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.94ea6a01.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.db838aaf.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.db838aaf.js.map",
+    "static/js/2.620aa54f.chunk.js": "/react-portfolio/static/js/2.620aa54f.chunk.js",
+    "static/js/2.620aa54f.chunk.js.map": "/react-portfolio/static/js/2.620aa54f.chunk.js.map",
+    "static/js/3.4d54159c.chunk.js": "/react-portfolio/static/js/3.4d54159c.chunk.js",
+    "static/js/3.4d54159c.chunk.js.map": "/react-portfolio/static/js/3.4d54159c.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.4d05377a.chunk.css.map": "/react-portfolio/static/css/main.4d05377a.chunk.css.map",
-    "static/js/2.ad94b2eb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ad94b2eb.chunk.js.LICENSE.txt",
+    "static/css/main.4f8780f5.chunk.css.map": "/react-portfolio/static/css/main.4f8780f5.chunk.css.map",
+    "static/js/2.620aa54f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.620aa54f.chunk.js.LICENSE.txt",
     "static/media/bioimage.0d1afb3d.png": "/react-portfolio/static/media/bioimage.0d1afb3d.png",
     "static/media/miso-hungry-favicon.png": "/react-portfolio/static/media/miso-hungry-favicon.e2cba7a4.png",
     "static/media/movie-mixer-favicon.png": "/react-portfolio/static/media/movie-mixer-favicon.8125a974.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc653d04.js",
-    "static/js/2.ad94b2eb.chunk.js",
-    "static/css/main.4d05377a.chunk.css",
-    "static/js/main.1c62d8b3.chunk.js"
+    "static/js/runtime-main.db838aaf.js",
+    "static/js/2.620aa54f.chunk.js",
+    "static/css/main.4f8780f5.chunk.css",
+    "static/js/main.94ea6a01.chunk.js"
   ]
 }

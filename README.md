@@ -1,12 +1,4 @@
-# React Portfolio
+# Rebecca Nguyen Portfolio
+My very own portfolio built with React! 
 
-<!-- ## Table of Contents
-
-- [Description](#description)
-- [Technologies](#technologies)
-
-
-## Description
-
-
-## Technologies
+Link to deployed site: https://rtanguyen.github.io/react-portfolio/ 

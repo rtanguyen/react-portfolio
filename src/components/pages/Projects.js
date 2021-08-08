@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 function Projects() {
     return (
@@ -202,11 +203,7 @@ function Projects() {
               </div>      
           </div>
         </section>
-        <footer>
-          <div className="footer-text-container">
-              <p className="footer_text justify-content-center">Copyright &amp; Design © Rebecca Nguyen 2021</p>
-          </div>
-        </footer>
+        <Footer></Footer>
         </div>
     )
 }

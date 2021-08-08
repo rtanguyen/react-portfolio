@@ -20,7 +20,7 @@ function Home() {
           <section className="home" id="work-section">
             <h2>Some things I've built</h2>
             <p>
-              Check out my <a href="work.html">projects page</a> page for more!
+              Check out my projects page page for more!
             </p>
             
           <div className="row feat-project-container ">
